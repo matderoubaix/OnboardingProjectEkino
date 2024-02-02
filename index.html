@@ -1,0 +1,50 @@
+<html>
+
+<head>
+	<title>ProjMarvel</title>
+	<meta charset="UTF-8" />
+	<link rel="shortcut icon" href="#" />
+	<link href="./style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+	<header id="headerCharacter">
+		<img id="logo" alt="#" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png"></img>
+	</header>
+	<div id="charactersBox">
+
+		<template id="characterTemplate">
+			<div class="exampleCharacter">
+				<!-- <img class="clickbarIcon" alt="#" src="./spidey.jpeg"></img> -->
+				<div class="clickBar">
+					<div class="characterCharacteristics">
+						
+						<p class="characterName"></p>
+					</div>
+					<a class="storyLink" href="#">STORIES</a>
+					<button class="buttonStories" role="button">DETAILS</button>
+				</div>
+				<!--
+				<div class="storiesBox">
+
+				</div>
+				-->
+			</div>
+		</template>
+
+		<template id="storiesTemplate">
+			<div class="exampleStory"></div>
+			<hr>
+		</template>
+
+		
+	</div>
+	<div id="spinner">Loading...</div>
+	<script>var exports = {};</script>
+	<script type="module" src="./src/main.ts">
+	</script>
+	
+</body>
+
+</html>
