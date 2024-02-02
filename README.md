@@ -6,5 +6,5 @@
 
 ## Outils
 
-- Javascript Vanilla
+- Javascript Vanilla => Typescript Vanilla
 - API Marvel
